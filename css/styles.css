@@ -31,7 +31,7 @@ p {
 /* ========== HEADER ========== */
 
 .logo-studio,
-.logo-web {
+.web {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -39,10 +39,10 @@ p {
   letter-spacing: 0.03em;
   color: var(--black-color);
 }
-.logo-web {
+.web {
   color: var(--accent-color);
 }
-.nav-link {
+.nav__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -56,21 +56,21 @@ p {
   transition: color 250ms var(--timing-function);
 }
 
-.nav-list .nav-link:hover,
-.nav-list .nav-link:focus,
-.nav-list .current {
+.nav__link:hover,
+.nav__link:focus,
+.nav__list .current {
   color: var(--accent-color);
 }
-.nav-list,
-.nav-list {
+.nav__list,
+.nav__list {
   cursor: pointer;
 }
 
-.nav-list {
+.nav__list {
   display: flex;
 }
 
-.nav-list li:not(:last-child) {
+.nav__list li:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -113,7 +113,7 @@ p {
   width: 10px;
   height: 16px;
 }
-.nav-list-item{
+.nav__item{
   position: relative;
 }
 /* ========== END HEADER ========== */
