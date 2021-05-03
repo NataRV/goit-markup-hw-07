@@ -22,16 +22,16 @@
     <div class="container page-header-menu">
       <nav class="nav">
         <a href="/" lang="en" class="logo-header">
-          <span class="web">Web</span><span class="logo-studio">Studio</span></a>
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="./index.html" class="nav__link current">Студия</a>
+          <span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a href="./index.html" class="nav-link current">Студия</a>
           </li>
-          <li class="nav__item">
-            <a href="./portfolio.html" class="nav__link">Портфолио</a>
+          <li class="nav-list-item">
+            <a href="./portfolio.html" class="nav-link">Портфолио</a>
           </li>
-          <li class="nav__item">
-            <a href="" class="nav__link">Контакты</a>
+          <li class="nav-list-item">
+            <a href="" class="nav-link">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -384,7 +384,7 @@
     <div class="container footer-container">
       <div class="footer-contacts">
         <a href="/" lang="en" class="logo">
-          <span class="web">Web</span><span class="logo-studio logo-footer">Studio</span></a>
+          <span class="logo-web">Web</span><span class="logo-studio logo-footer">Studio</span></a>
         <address class="address">
           <ul class="contact-information-list">
             <li class="contact-information-list-item">
@@ -442,16 +442,21 @@
 
       </div>
 
-      <form action="" class="sign-up">
-        <p class="sign-up-title">Подпишитесь на рассылку</p>
-        <label for="" class="sign-up-input-label">
-          <input type="email" name="user-email" class="modal-form-input" placeholder="E-mail">
-        </label>
-        <button type="submit" class="sign-up-btn">Подписаться <svg>
-            <use></use> <!-- use flex to make central-->
-          </svg></button>
+      <div class="sign-up">
+        <form action="" class="sign-up-form">
+          <p class="sign-up-title">Подпишитесь на рассылку</p>
+          <div class="sign-up-div">
 
-      </form>
+            <label for="" class="sign-up-input-label">
+              <input class="sign-up-email" type="email" name="user-email" placeholder="E-mail" autocomplete="off">
+            </label>
+
+            <button type="submit" class="sign-up-btn">Подписаться <svg class="sign-up-icon">
+                <use href="./images/sprite.svg#send-icon"></use>
+              </svg></button>
+          </div>
+        </form>
+      </div>
 
 
 
