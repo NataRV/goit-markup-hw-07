@@ -1,0 +1,86 @@
+.logo-studio,
+.logo-web {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+}
+.logo-web {
+  color: var(--accent-color);
+}
+.nav-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+
+  transition: color 250ms var(--timing-function);
+}
+
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus,
+.nav-list .current {
+  color: var(--accent-color);
+}
+.nav-list,
+.nav-list {
+  cursor: pointer;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-contacts {
+  display: flex;
+  margin-left: auto;
+}
+.header-contacts li + li {
+  margin-left: 50px;
+}
+.header-contacts-item {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.page-header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  display: flex;
+}
+
+.logo-header {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
+.contacts-icon-mail {
+  margin-right: 10px;
+  fill: currentColor;
+  width: 16px;
+  height: 12px;
+}
+.contacts-icon-tel {
+  margin-right: 10px;
+  fill: currentColor;
+  width: 10px;
+  height: 16px;
+}
+.nav-list-item{
+  position: relative;
+}

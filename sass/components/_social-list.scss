@@ -1,0 +1,19 @@
+.social-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  
+}
+.social-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  transition: background-color 250ms var(--timing-function);
+}
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-item:hover {
+  background-color: var(--accent-color);
+}

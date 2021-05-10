@@ -1,2 +1,13 @@
-$bg-color: white;
-$text-color: :
+:root {
+  --text-font: "Roboto", sans-serif;
+  --accent-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --dark-theme-color: #2f303a;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --light-grey-color: rgba(255, 255, 255, 0.6);
+  --light-grey-bg-color: #f5f4fa;
+  --card-set-gap: 30px;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
